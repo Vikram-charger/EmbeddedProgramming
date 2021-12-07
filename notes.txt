@@ -1,0 +1,79 @@
+07.12.2021
+-----------------------------------------------------------------------------------------
+1. What is an embedded system
+-----------------------------------------------------------------------------------------
+   System which has both hardware and software and the system is designed to do a specific task.
+
+Eg. Camera, Printer, Mobile phones, routers etc
+
+Hardware act as a body of the embedded system.
+Processor act as a brain.
+Embedded Software act as a soul.
+
+Vehicles too have embedded systems like automatic brakes control, climate monitoring system, Engine Oil and temperature monitoring system.
+----------------------------------------------------------------------------------------------
+2. How to select programming languages for embedded system/ how to program a embedded system.
+----------------------------------------------------------------------------------------------
+Processor - Heart of the system
+
+Microprocessor, micro controller, DSP processors, CPLD or FPGA (All are programmable), We can write a program how the hardware actually works.
+
+Embedded software or program allows the hardware to monitor external events and control external devices
+
+The program of embedded system may how to directly manipulate the intenal structure of embedded hardware such as serial communication interface, interrupt handling, input output(I/O) port
+
+Embedded Systems Programming:
+-----------------------------
+Embedded devices have resource constraints
+
+Embedded typically uses smaller and less power consuming components
+
+Embedded systems are more tied to the hardware
+
+Salient features of embedded systems are code speed and code size.
+
+Code speed governed by processing power and timing constraints.
+Code size governed by available program memory or the user programming language.
+
+Goal:
+-----
+Maximum features in minimum space and minimum time
+
+Languages:
+----------
+1. Machine Code
+2. Low Level language(Assembly)
+3. High level language(c, c++, java, Ada etc)
+4. Application level languages like Visual Basic, Scripts, Access etc.
+
+Factors for selecting programming language:
+-------------------------------------------
+1. Size - Memory that program occupies is very important as  embedded processors like microcontroller have a very limited amount of ROM(Read only memory)
+2. Speed - Program must be very fast. They must run  as fast as possible. The hardware should not be slow down due to slow running software.
+3. Portability - Same program can be compiled for different processors.
+4. Ease of implementation.
+5. Ease of Maintenance.
+6. Reliablility
+
+Assembly Language Programming:
+-----------------------------
+Assembler : converts assembly written codes to machine code.
+
+
+3. Embedded C compiler working
+
+variables
+contants
+datatypes
+number system
+
+control structures/ functions
+
+Embedded C program structure
+
+Bitwise operations in embedded C
+
+Bit masking , Bit monitoring and Bit extracting
+
+program using embedded C in 8051 micro controller
+--------------------------------------------------------------------------------------
